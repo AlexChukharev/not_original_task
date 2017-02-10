@@ -54,10 +54,10 @@ class linked_list:
 		self.size += 1
 
 	def get_front(self):
-		return self.begin.val
+		return self.begin.get_val()
 
 	def get_back(self):
-		return self.end.val
+		return self.end.get_val()
 
 	def pop_back(self):
 		if self.size != 1:
